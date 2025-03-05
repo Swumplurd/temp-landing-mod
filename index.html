@@ -119,35 +119,34 @@
   <div id="desktopHeroCarousel" class="carousel slide d-none d-md-flex headTitle">
     <div class="carousel-inner flex-1">
       <!-- Default slide -->
-      <div class="carousel-item">
-        <div class="col-md-12 m-0 d-flex d-none d-md-flex" style="max-width:1920px;">
+      <div class="carousel-item d-flex flex-column">
+        <div class="col-md-12 m-0 d-flex d-none d-md-flex flex-wrap bann-back-img" style="height: 100vh;position: relative;">
           <div class="col-12 col-lg-6 d-flex flex-column item1 item1ab pad-item1 justify-content-md-center headTitle">
             <div class="d-flex flex-column justify-content-center align-items-center">
               <!-- Aquí inica la comunicación de DZAN -->
-              <img fetchpriority="low" src="assets/header/mvshub-todo.webp" alt="mvshub" class="logmvshubDAZN">
-              <div style="width: 500px; text-align: center; padding: 0 20px;">
-                <p class="text-white mb-0 py-sm-0 SubTitleNFL">
-                  TUS PLATAFORMAS DE STREAMING FAVORITAS EN UN MISMO LUGAR
-                  <br>
-
-                </p>
-                <p class="text-white mb-0 py-sm-0 SubTitleNFL mt-3">
-                  <span class="orangeColorC ">
-                    Películas, series, deportes, canales de TV con ReplayTV y más
-                  </span>
-
-                </p>
+              <div class="banner-container">
+                <h1 class="">
+                  Disfruta tus plataformas de streaming y canales de TV con ReplayTV <br> <span class="orangeColorC">en un sólo lugar </span>
+                </h1>
+                <img fetchpriority="low" src="assets/header/logo-mvsnew.svg" alt="mvshub" class="logmvshubDAZN">
+                <div class="buttons-banner">
+                  <a href="">Regístrate y empieza <br> a ver canales gratis</a>
+                  <a href="#packs-content">Explora todas las opciones</a>
+                </div>
               </div>
             </div>
           </div>
-
           <div class="col-lg-6 d-none d-lg-block">
-            <div class="d-flex header-imgBack justify-content-start">
-              <img id="default-hero-img" class="platforms-headerImg" src="assets/img_camp_desktop.webp"
-                alt="plataformas">
+            <div class="d-flex header-imgBack flex-column align-items-center h-100" style="margin-top: 70px;">
+              <img class="platforms-headerImg" src="assets/images/slider/mohana.png"
+                alt="disney+">
+                <p class="add-disney-title">Ahora puedes contratar paquetes de <br> <span class="orangeColorC">mvshub</span> con <span class="orangeColorC">Disney+</span></p>
             </div>
           </div>
-
+          <div class="col-12 channel-free-content" >
+            <p>Regístrate y empieza a ver más de 60 canales sin costo</p>
+            <img src="assets/images/slider/logos.png" alt="logos">
+          </div>
         </div>
       </div>
     </div>
@@ -201,7 +200,7 @@
     </a>
   </div>
 
-  <div class="row-1 d-flex flex-column">
+  <div class="row-1 d-flex flex-column pt-5" id="packs-content">
 
     <div class="scroll-indicator d-flex flex-column align-items-center  d-none d-md-block" id="scrollIndicator">
       <div class="scroll-text text-white" id="scrollText">
@@ -554,7 +553,7 @@
           <div class="container cd-product-wrapper d-flex flex-column align-items-center">
             <div class="d-flex justify-content-center">
               <!-- set a 704:495 i.e a 16:9 aspect ratio -->
-              <img class="d-none d-md-block" fetchpriority="low" class="img-fluid" src="assets/grabacion/laptop.webp"
+              <img class="d-none d-md-block img-fluid" fetchpriority="low" src="assets/grabacion/laptop.webp"
                 alt="laptop" width="704" height="495">
               <img class="d-block d-md-none replay-cel" fetchpriority="low" class="img-fluid"
                 src="assets/grabacion/cel.webp" alt="cel">
@@ -598,6 +597,659 @@
       </div>
     </section>
     <!--End Grabación-->
+
+    <!-- FAQS -->
+    <section>
+      <div class="container mt-5">
+        <div class="row text-left">
+          <div class="tab-content" id="v-pills-tabContent">
+            <div class="tab-pane fade show active mb-5 d-flex justify-content-center" id="v-pills-servicio" role="tabpanel"
+              aria-labelledby="v-pills-servicio-tab">
+              <div class="accordion" id="accordionExample">
+  
+                <p class="f24 mt-5 text-white fw-light px-3 pt-3 pt-md-0">PREGUNTAS FRECUENTES</p>
+  
+                <div class="panel panel-default text-left">
+                  <div class="panel-heading" role="tab" id="headingOne">
+                    <p>
+                      <a role="button" class="f18 text-decoration-none" data-bs-toggle="collapse" data-bs-parent="#accordion" href="#collapseOne"
+                        aria-expanded="false" aria-controls="collapseOne">
+                        <span> ¿Qué es mvs<b>hub</b>?
+                        </span>
+                      </a>
+                    </p>
+                  </div>
+                  <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                    <div class="panel-body">
+                      <p class="MetFaqResp">
+                        mvs<b>hub</b> es un súper agregador que funciona mediante una suscripción mensual y permite a sus usuarios ver series y películas a través de sus plataformas preferidas y canales de TV en vivo, en cualquier dispositivo conectado a Internet, a un mejor precio.</p>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="heading2">
+                    <p>
+                      <a role="button" class="f18 text-decoration-none" data-bs-toggle="collapse" data-bs-parent="#accordion" href="#collapse2"
+                        aria-expanded="false" aria-controls="collapseOne">
+                        <span class="MetFaqTitle"> ¿Cuánto cuesta mvs<b>hub</b>?
+                        </span>
+                      </a>
+                    </p>
+                  </div>
+                  <div id="collapse2" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading2">
+                    <div class="panel-body">
+                      <div class="row MetFaqResp FaqPqt d-flex justify-content-center flex-wrap gap-3">
+  
+  
+  
+                        <div class="row d-flex justify-content-center">
+                          <h5 class="text-center">Paquete con canales de TV en vivo</h5>
+                        </div>
+                        <div class="d-flex flex-column justify-content-center faqs-packs">
+                          <div class="text-center f20">
+                            <p class="mb-0">Esencial <strong>126 canales de TV | $239 al mes</strong></p>
+                          </div>
+                          <div class="d-flex justify-content-center">
+                            <p class="mb-0 mx-3 mt-2 text-center">Entretenimiento | Conocimiento | Estilo de vida | Películas | Deportes | Noticias | Religión | Novelas | Infantil | Música </p>
+                          </div>
+                        </div>
+  
+                        <div class="d-flex flex-column justify-content-center faqs-packs">
+                          <div class="text-center f20">
+                            <p class="mb-0">Extendido <strong>172 canales de TV | $389 al mes</strong></p>
+                          </div>
+                          <div class="d-flex justify-content-center">
+                            <p class="mb-0 mx-3 mt-2 text-center">Entretenimiento | Conocimiento | Estilo de vida | Películas | Deportes | Noticias | Religión | Novelas | Infantil | Música </p>
+                          </div>
+                        </div>
+  
+  
+                        <div class="row d-flex justify-content-center">
+                          <h5 class="text-center">Paquetes con plataformas</h5>
+                        </div>
+  
+                        <div class="d-flex flex-column justify-content-center faqs-packs">
+                          <div class="text-center f20">
+                            <p class="mb-0">Paquete Familiar | <strong>$189 al mes</strong></p>
+                          </div>
+                          <div class="d-flex justify-content-center">
+                            <img class="img-fluid"
+                            src="assets/faqs/NuevaOferta/Fam.png"
+                            alt="Paquete Familiar">
+                          </div>
+                        </div>
+                        <div class="d-flex flex-column justify-content-center faqs-packs">
+                          <div class="text-center f20">
+                            <p class="mb-0">Paquete Familiar Mas | <strong>$319 al mes</strong></p>
+                          </div>
+                          <div class="d-flex justify-content-center">
+                            <img class="img-fluid"
+                            src="assets/faqs/NuevaOferta/FamMas.png"
+                            alt="Paquete Familiar Más">
+                          </div>
+                        </div>
+                        <div class="d-flex flex-column justify-content-center faqs-packs">
+                          <div class="text-center f20">
+                            <p class="mb-0">Paquete Familiar Internacional | <strong>$389 al mes</strong></p>
+                          </div>
+                          <div class="d-flex justify-content-center">
+                            <img class="img-fluid"
+                              src="assets/faqs/NuevaOferta/FamIn.png"
+                              alt="Paquete Familiar Más">
+                          </div>
+                        </div>
+                        <div class="d-flex flex-column justify-content-center faqs-packs">
+                          <div class="text-center f20">
+                            <p class="mb-0">Paquete Entretenimiento | <strong>$499 al mes</strong></p>
+                          </div>
+                          <div class="d-flex justify-content-center">
+                            <img class="img-fluid"
+                              src="assets/faqs/NuevaOferta/Entret.png"
+                              alt="Paquete Entretenimiento">
+                          </div>
+                        </div>
+  
+                        <div class="d-flex flex-column justify-content-center faqs-packs">
+                          <div class="text-center f20">
+                            <p class="mb-0">Paquete Entretenimiento Más | <strong>$699 al mes</strong></p>
+                          </div>
+                          <div class="d-flex justify-content-center">
+                            <img class="img-fluid"
+                              src="assets/faqs/NuevaOferta/EntretMas.png"
+                              alt="Paquete Entreetenimiento Más">
+                          </div>
+                        </div>
+                        <div class="d-flex flex-column justify-content-center faqs-packs">
+                          <div class="text-center f20">
+                            <p class="mb-0">Paquete Entretenimiento Total | <strong>$899 al mes</strong></p>
+                          </div>
+                          <div class="d-flex justify-content-center">
+                            <img class="img-fluid"
+                              src="assets/faqs/NuevaOferta/EntretTotal.png"
+                              alt="Paquete Entreetenimiento Total">
+                          </div>
+                        </div>
+                        <!-- KIDS -->
+                        <div class="d-flex flex-column justify-content-center faqs-packs">
+                          <div class="text-center f20">
+                            <p class="mb-0">Paquete Kids | <strong>$79 al mes</strong></p>
+                          </div>
+                          <div class="d-flex justify-content-center">
+                            <img class="img-fluid"
+                              src="assets/faqs/NuevaOferta/Kids.png"
+                              alt="Paquete Kids">
+                          </div>
+                        </div>
+                        <!-- DEPORTES -->
+                        <div class="d-flex flex-column justify-content-center faqs-packs">
+                          <div class="text-center f20">
+                            <p class="mb-0">Paquete Deportes | <strong>$619 al mes</strong></p>
+                          </div>
+                          <div class="d-flex justify-content-center">
+                            <img class="img-fluid"
+                              src="assets/faqs/NuevaOferta/Deportes.png"
+                              alt="Paquete Deportes">
+                          </div>
+                        </div>
+                        <!-- DEPORTES + -->
+                        <div class="d-flex flex-column justify-content-center faqs-packs">
+                          <div class="text-center f20">
+                            <p class="mb-0">Paquete Deportes Más | <strong>$999 al mes</strong></p>
+                          </div>
+                          <div class="d-flex justify-content-center">
+                            <img class="img-fluid"
+                              src="assets/faqs/NuevaOferta/DeportesPlus.png"
+                              alt="Paquete Deportes Más">
+                          </div>
+                        </div>
+  
+  
+                        <div class="row d-flex justify-content-center mt-5">
+                          <h5 class="text-center">Plataformas a la carta</h5>
+                        </div>
+  
+                        <div class="d-flex flex-column justify-content-center faqs-packs">
+                          <div class="text-center f20">
+                            <p class="mb-0">PRIME | <strong>$99 al mes</strong></p>
+                          </div>
+                          <div class="d-flex justify-content-center">
+                            <img class="img-fluid"
+                              src="assets/faqs/prime.webp"
+                              alt="PRIME">
+                          </div>
+                        </div>
+  
+                        <div class="d-flex flex-column justify-content-center faqs-packs">
+                          <div class="text-center f20">
+                            <p class="mb-0">MAX | <strong>$179 al mes</strong></p>
+                          </div>
+                          <div class="d-flex justify-content-center">
+                            <img class="img-fluid"
+                              src="assets/faqs/max-1.webp"
+                              alt="MAX">
+                          </div>
+                        </div>
+  
+                        <!-- <div class="d-flex flex-column justify-content-center faqs-packs">
+                          <div class="text-center f20">
+                            <p class="mb-0">PARAMOUNT+ | <strong>$109 al mes</strong></p>
+                          </div>
+                          <div class="d-flex justify-content-center">
+                            <img class="img-fluid"
+                              src="assets/faqs/paramount.webp"
+                              alt="PARAMOUNT+">
+                          </div>
+                        </div> -->
+  
+                        <div class="d-flex flex-column justify-content-center faqs-packs">
+                          <div class="text-center f20">
+                            <p class="mb-0">EDYE | <strong>$57 al mes</strong></p>
+                          </div>
+                          <div class="d-flex justify-content-center">
+                            <img class="img-fluid"
+                              src="assets/faqs/edye.webp"
+                              alt="Edye">
+                          </div>
+                        </div>
+  
+                        <div class="d-flex flex-column justify-content-center faqs-packs">
+                          <div class="text-center f20">
+                            <p class="mb-0">ANIME ONEGAI | <strong>$55 al mes</strong></p>
+                          </div>
+                          <div class="d-flex justify-content-center">
+                            <img class="img-fluid"
+                              src="assets/faqs/animeonegai.webp"
+                              alt="Anime Onegai">
+                          </div>
+                        </div>
+  
+                        <div class="d-flex flex-column justify-content-center faqs-packs">
+                          <div class="text-center f20">
+                            <p class="mb-0">UNIVERSAL+ | <strong>$149 al mes</strong></p>
+                          </div>
+                          <div class="d-flex justify-content-center">
+                            <img class="img-fluid"
+                              src="assets/faqs/universal.webp"
+                              alt="Universal Plus">
+                          </div>
+                        </div>
+  
+                        <div class="d-flex flex-column justify-content-center faqs-packs">
+                          <div class="text-center f20">
+                            <p class="mb-0">CINDIE | <strong>$49 al mes</strong></p>
+                          </div>
+                          <div class="d-flex justify-content-center">
+                            <img class="img-fluid"
+                              src="assets/faqs/cindie.webp"
+                              alt="CINDIE">
+                          </div>
+                        </div>
+  
+                        <div class="d-flex flex-column justify-content-center faqs-packs">
+                          <div class="text-center f20">
+                            <p class="mb-0">HOTGO | <strong>$139 al mes</strong></p>
+                          </div>
+                          <div class="d-flex justify-content-center">
+                            <img class="img-fluid"
+                              src="assets/faqs/hotgo.webp"
+                              alt="HotGo">
+                          </div>
+                        </div>
+  
+                        <div class="d-flex flex-column justify-content-center faqs-packs">
+                          <div class="text-center f20">
+                            <p class="mb-0">Picardía Nacional | <strong>$45 al mes</strong></p>
+                          </div>
+                          <div class="d-flex justify-content-center">
+                            <img class="img-fluid"
+                              src="assets/faqs/picardia.webp"
+                              alt="Picardía Nacional">
+                          </div>
+                        </div>
+  
+                        <div class="d-flex flex-column justify-content-center faqs-packs">
+                          <div class="text-center f20">
+                            <p class="mb-0">Fox Sports | <strong>$140 al mes</strong></p>
+                          </div>
+                          <div class="d-flex justify-content-center">
+                            <img class="img-fluid"
+                              src="assets/faqs/FOX_Sports.webp"
+                              alt="Fox Sports">
+                          </div>
+                        </div>
+  
+                        <div class="d-flex flex-column justify-content-center faqs-packs">
+                          <div class="text-center f20">
+                            <p class="mb-0">DAZN | <strong>$250 al mes</strong></p>
+                          </div>
+                          <div class="d-flex justify-content-center">
+                            <img class="img-fluid"
+                              src="assets/faqs/dazn.svg"
+                              alt="DAZN">
+                          </div>
+                        </div>
+  
+                        <div class="d-flex flex-column justify-content-center faqs-packs">
+                          <div class="text-center f20">
+                            <p class="mb-0">Kanal D drama | <strong>$79 al mes</strong></p>
+                          </div>
+                          <div class="d-flex justify-content-center">
+                            <img class="img-fluid"
+                              src="assets/faqs/kdrama.webp"
+                              alt="Fox Sports">
+                          </div>
+                        </div>
+                        
+                        <div class="d-flex flex-column justify-content-center faqs-packs">
+                          <div class="text-center f20">
+                            <p class="mb-0">atresplayer | <strong>$99 al mes</strong></p>
+                          </div>
+                          <div class="d-flex justify-content-center">
+                            <img class="img-fluid"
+                              src="assets/faqs/atresplayer.svg"
+                              alt="atresplayer">
+                          </div>
+                        </div>
+                        <div class="d-flex flex-column justify-content-center faqs-packs">
+                          <div class="text-center f20">
+                            <p class="mb-0">Game Pass | <strong>$2,700 Anual</strong></p>
+                            <p class="mb-0">Game Pass | <strong>$330 Semanal</strong></p>
+                          </div>
+                          <div class="d-flex justify-content-center">
+                            <img class="img-fluid"
+                              src="assets/faqs/nfl_pass.webp"
+                              alt="atresplayer">
+                          </div>
+                        </div>
+                        <div class="d-flex flex-column justify-content-center faqs-packs">
+                          <div class="text-center f20">
+                            <p class="mb-0">Disney+ Estándar | <strong>$219 al mes</strong></p>
+                            <p class="mb-0">Disney+ Premium | <strong>$299 al mes</strong></p>
+                          </div>
+                          <div class="d-flex justify-content-center">
+                            <img class="img-fluid"
+                              src="assets/faqs/disney.png"
+                              alt="atresplayer">
+                          </div>
+                        </div>
+  
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="heading3">
+                    <p>
+                      <a role="button" class="f18 text-decoration-none" data-bs-toggle="collapse" data-bs-parent="#accordion" href="#collapse3"
+                        aria-expanded="false" aria-controls="collapseOne">
+                        <span class="MetFaqTitle">¿En qué dispositivos están disponibles?
+                        </span>
+                      </a>
+                    </p>
+                  </div>
+                  <div id="collapse3" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading3">
+                    <div class="panel-body">
+                      <p class="MetFaqResp">
+                        Web (Chrome, Firefox, Safari, MS-Edge) <br>
+                        iOS<br>
+                        Android<br>
+                        Chromecast<br>
+                        Apple TV<br>
+                        Android TV <br>
+                        LG <br>
+                        Huawei <br>
+                        Fire TV <br>
+                        Roku <br>
+                        <!--Roku-->
+                      </p>
+                    </div>
+                  </div>
+                </div>
+  
+               <!-- Dispositivos -->
+  
+               <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading3">
+                  <p>
+                    <a role="button" class="f18 text-decoration-none" data-bs-toggle="collapse" data-bs-parent="#accordion" href="#collapse15"
+                      aria-expanded="false" aria-controls="collapseOne">
+                      <span class="MetFaqTitle">¿Hasta cuántos dispositivos tengo para utilizar mi servicio?
+                      </span>
+                    </a>
+                  </p>
+                </div>
+                <div id="collapse15" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading3">
+                  <div class="panel-body">
+                    <p class="MetFaqResp">
+                      El número de dispositivos que puedes utilizar de forma simultánea dependerá del paquete contratado y a la disponibilidad autorizada por cada Network.
+                    </p>
+                  </div>
+                </div>
+              </div>
+  
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="heading3">
+                    <p>
+                      <a role="button" class="f18 text-decoration-none" data-bs-toggle="collapse" data-bs-parent="#accordion" href="#collapse5"
+                        aria-expanded="false" aria-controls="collapseOne">
+                        <span class="MetFaqTitle"> ¿Cómo contrato mvs<b>hub</b>?
+                        </span>
+                      </a>
+                    </p>
+                  </div>
+                  <div id="collapse5" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading3">
+                    <div class="panel-body">
+                      <p class="MetFaqResp">
+                        1. Visita <a href="http://www.mvshub.com.mx" target="_blank" class="naranja">mvshub.com.mx</a><br>
+                        2. Crea una cuenta introduciendo tu dirección de correo y creando una contraseña.<br>
+                        3. Elige el plan que más se adapte a ti.<br>
+                        4. Introduce un método de pago. <br>
+                        Eso es todo, ¡disfruta de mvs<b>hub</b>!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="heading3">
+                    <p>
+                      <a role="button" class="f18 text-decoration-none" data-bs-toggle="collapse" data-bs-parent="#accordion" href="#collapse6"
+                        aria-expanded="false" aria-controls="collapseOne">
+                        <span class="MetFaqTitle">¿Sólo hay paquetes de plataformas de video?
+                        </span>
+                      </a>
+                    </p>
+                  </div>
+                  <div id="collapse6" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading3">
+                    <div class="panel-body">
+                      <p class="MetFaqResp">
+                        No, también puedes contratar paquetes con canales de televisión en vivo.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="heading3">
+                    <p>
+                      <a role="button" class="f18 text-decoration-none" data-bs-toggle="collapse" data-bs-parent="#accordion" href="#collapse7"
+                        aria-expanded="false" aria-controls="collapseOne">
+                        <span class="MetFaqTitle">¿Puedo contratar al mismo tiempo plataformas de video y canales de televisión en vivo?
+                        </span>
+                      </a>
+                    </p>
+                  </div>
+                  <div id="collapse7" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading3">
+                    <div class="panel-body">
+                      <p class="MetFaqResp">
+                        Si, puedes contratar ambos paquetes recibiendo un descuento adicional o contratarlo por separado.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+  
+              <!--   <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="heading3">
+                    <p>
+                      <a role="button" class="f18 text-decoration-none" data-bs-toggle="collapse" data-bs-parent="#accordion" href="#collapse8"
+                        aria-expanded="false" aria-controls="collapseOne">
+                        <span class="MetFaqTitle"> ¿Puedo contratar mvs<b>hub</b> si no soy cliente Dish?
+                        </span>
+                      </a>
+                    </p>
+                  </div>
+                  <div id="collapse8" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading3">
+                    <div class="panel-body">
+                      <p class="MetFaqResp">
+                        El servicio de mvs<b>hub</b> está disponible para cualquier persona sin importar que no sea
+                        cliente Dish, así que te invitamos a que consultes nuestros paquetes disponibles para ti.
+                      </p>
+                    </div>
+                  </div>
+                </div> -->
+  
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="heading3">
+                    <p>
+                      <a role="button" class="f18 text-decoration-none" data-bs-toggle="collapse" data-bs-parent="#accordion" href="#collapse9"
+                        aria-expanded="false" aria-controls="collapseOne">
+                        <span class="MetFaqTitle">No puedo contratar mvs<b>hub</b> ¿Qué hago?
+                        </span>
+                      </a>
+                    </p>
+                  </div>
+                  <div id="collapse9" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading3">
+                    <div class="panel-body">
+                      <p class="MetFaqResp">
+                        Si tienes problemas al conectarte a mvs<b>hub</b>, por favor toma en cuenta las siguientes indicaciones: <br> <br>
+                        
+                        1. Valida que puedes abrir otras páginas de video y que la conexión de internet está funcionando correctamente. <br>
+                        
+                        2. Revisa que no tienes restricciones o bloqueos de navegación (Firewall). <br>
+                        
+                        3. Comprueba que la versión del navegador esté actualizada (últimas versiones). <br>
+                        
+                        4. Borra historial de cookies. <br>
+                        
+                        5. Debes estar al día en facturación. <br>
+                        
+                        6. Si ya has ingresado anteriormente a mvs<b>hub</b> y luego no te permite ingresar, asegúrate de haber cerrado correctamente la sesión anteriormente y en todos los dispositivos. <br>
+                        
+                        7. Se recomienda cerrar sesión o reiniciar la computadora para restablecer conexión y configuraciones en caso de presentarse fallas.
+  
+                        <!--8. Si ya realizaste los pasos anteriores y sigues presentando el mismo error para ingresar, por favor comunícate al: 5521687482* Por confirmar número-->
+                      </p>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="heading3">
+                    <p>
+                      <a role="button" class="f18 text-decoration-none" data-bs-toggle="collapse" data-bs-parent="#accordion" href="#collapse10"
+                        aria-expanded="false" aria-controls="collapseOne">
+                        <span class="MetFaqTitle"> ¿Qué pasa si me equivoqué en un dato al momento de mi registro?
+                        </span>
+                      </a>
+                    </p>
+                  </div>
+                  <div id="collapse10" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading3">
+                    <div class="panel-body">
+                      <p class="MetFaqResp">
+                        Número de atención es: 55 5037 1577
+                      </p>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="heading3">
+                    <p>
+                      <a role="button" class="f18 text-decoration-none" data-bs-toggle="collapse" data-bs-parent="#accordion" href="#collapse11"
+                        aria-expanded="false" aria-controls="collapseOne">
+                        <span class="MetFaqTitle">¿Qué pasa si yo ya tengo una cuenta de Netflix y/o Prime Video y quiero contratar un paquete que ya lo incluye?
+                        </span>
+                      </a>
+                    </p>
+                  </div>
+                  <div id="collapse11" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading3">
+                    <div class="panel-body">
+                      <p class="MetFaqResp">
+                        Puedes contratar el paquete y usar tu misma tu cuenta de Netflix y/o Prime Video y automáticamente se vincula a tu paquete.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="heading8">
+                    <p>
+                      <a role="button" class="f18 text-decoration-none" data-bs-toggle="collapse" data-bs-parent="#accordion" href="#collapse12"
+                        aria-expanded="false" aria-controls="collapseOne">
+                        <span class="MetFaqTitle"> ¿Puedo contratar solo una plataforma o plataformas por separado?
+                      </a>
+                    </p>
+                  </div>
+                  <div id="collapse12" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading3">
+                    <div class="panel-body">
+                      <p class="MetFaqResp">
+                        Si, puedes contratar paquetes y agregar plataformas o simplemente contratar una plataforma.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="heading3">
+                    <p>
+                      <a role="button" class="f18 text-decoration-none" data-bs-toggle="collapse" data-bs-parent="#accordion" href="#collapse13"
+                        aria-expanded="false" aria-controls="collapseOne">
+                        <span class="MetFaqTitle">¿Mi cuenta y contraseña de Anime Onegai es válida para utilizarla en otra plataforma fuera de mvs<b>hub</b>?
+                        </span>
+                      </a>
+                    </p>
+                  </div>
+                  <div id="collapse13" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading3">
+                    <div class="panel-body">
+                      <p class="MetFaqResp">
+                        No, tu cuenta de mvs<b>hub</b> solo te permitirá tener acceso al contenido de Anime Onegai desde la plataforma de mvshub.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="heading3">
+                    <p>
+                      <a role="button" class="f18 text-decoration-none" data-bs-toggle="collapse" data-bs-parent="#accordion" href="#collapse14"
+                        aria-expanded="false" aria-controls="collapseOne">
+                        <span class="MetFaqTitle">¿Cuántos días de programación Replay TV tengo?
+                        </span>
+                      </a>
+                    </p>
+                  </div>
+                  <div id="collapse14" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading3">
+                    <div class="panel-body">
+                      <p class="MetFaqResp">
+                        Con la funcionalidad de Replay TV puedes disfrutar de 1, 3 o hasta 7 días de programación de canales de TV, esto está sujeto al paquete contratado y a la disponibilidad autorizada por cada canal.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+  
+               
+                
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="heading3">
+                    <p>
+                      <a role="button" class="f18 text-decoration-none" data-bs-toggle="collapse" data-bs-parent="#accordion" href="#collapse16"
+                        aria-expanded="false" aria-controls="collapseOne">
+                        <span class="MetFaqTitle">¿Tengo canales gratis al suscribirme a mvs<b>hub</b>?
+                        </span>
+                      </a>
+                    </p>
+                  </div>
+                  <div id="collapse16" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading3">
+                    <div class="panel-body">
+                      <p class="MetFaqResp">
+                        Si, al suscribirte a mvs<b>hub</b> tienes acceso a una selección de canales que puedes consultar desde la lista de canales que tenemos en la sección de TV, seleccionando Gratis.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="heading3">
+                    <p>
+                      <a role="button" class="f18 text-decoration-none" data-bs-toggle="collapse" data-bs-parent="#accordion" href="#collapse17"
+                        aria-expanded="false" aria-controls="collapseOne">
+                        <span class="MetFaqTitle">Estoy intentando crear un perfil en mi dispositivo móvil y me pide un PIN, ¿Qué debo hacer?
+                        </span>
+                      </a>
+                    </p>
+                  </div>
+                  <div id="collapse17" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading3">
+                    <div class="panel-body">
+                      <p class="MetFaqResp">
+                        En el proceso de creación de un perfil en MVS<b>HUB</b> desde tu dispositivo móvil, 
+                        cuando se te solicite un PIN, usa el número 1234. Este PIN ha sido establecido 
+                        específicamente para la configuración de perfiles en dispositivos móviles, 
+                        con el fin de proporcionar una experiencia de configuración segura y confiable. 
+                        Asegúrate de usar este PIN solo en tu dispositivo móvil.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <section class="device-section w-100 pb-md-5" style="background: #fff;">
       <div class="container py-5 d-flex flex-column align-items-center px-5">

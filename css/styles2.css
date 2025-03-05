@@ -7,8 +7,7 @@
 }
 
 body {
-  background: rgb(63, 33, 92);
-  background: linear-gradient(180deg, rgba(63, 33, 92, 1) 19%, rgba(40, 27, 57, 1) 43%, rgba(40, 27, 57, 1) 65%, rgba(79, 44, 148, 1) 100%);
+  background: #181818;
   overflow-x: hidden;
 }
 
@@ -5070,3 +5069,164 @@ margin-right: 10px;
   font-size: 11px;
 }
 
+/* New Banner Section */
+
+.bann-back-img {
+  background-image: url(/assets/images/slider/back.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.banner-container {
+  max-width: 840px;
+  padding: 0 4em;
+}
+
+.banner-container h1 {
+  font-size: min(max(2vw, 1.55em), 2.56em);
+  line-height: 1.1;
+  text-align: start;
+  font-weight: 500;
+  color: #fff;
+}
+
+.banner-container img {
+  max-width: 400px;
+}
+
+.buttons-banner {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.buttons-banner a {
+  color: #fff;
+  font-size: min(max(2vw, 1.8em), 1.62em);
+  line-height: 1.1;
+  text-decoration: none;
+  padding: 0.3em 1em;
+  border: 3px solid #E25815;
+  border-radius: 15px;
+  width: 380px;
+  height: 84px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons-banner a:hover {
+  background: linear-gradient(180deg, rgba(226, 88, 22, 1) 0%, rgba(237, 131, 19, 1) 100%);
+  border: 0;
+  padding: 1.188em;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.disney-bann img {
+  width: 95%;
+}
+.add-disney-title {
+  color: #fff;
+  position: relative;
+  top: -1.2em;
+  font-size:  min(max(2vw, 1.2em), 2.18em);
+  font-weight: 600;
+  text-align: end;
+  padding-right: 0.8em;
+  line-height: 1.1;
+}
+
+.channel-free-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3em;
+  background: #fff;
+  padding: 0.8em;
+  margin: 0;
+  height: fit-content;
+  position: absolute;
+  bottom: 4.4em;
+}
+
+.channel-free-content p {
+  font-size: min(max(2vw, 1em), 1.75em);
+  font-weight: 500;
+  margin: 0;
+}
+
+.channel-free-content img {
+  width: 40%;
+  max-width: 600px;
+}
+
+
+ /*Faqs*/
+ .panel-default>.panel-heading {
+  color: #333;
+  padding: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  max-width: 1000px;
+}
+
+.panel-default>.panel-heading a {
+  display: block;
+  padding: 1.5em 3em;
+  color: #fff;
+  font-weight: bolder;
+  background: #6437BC;
+  border-radius: 26px;
+
+}
+
+.panel-default>.panel-heading a:after {
+  content: "";
+
+  position: relative;
+  top: 1px;
+  display: block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  font-size: 1.2rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  float: right;
+  transition: transform .25s linear;
+  -webkit-transition: -webkit-transform .25s linear;
+}
+
+.panel-default>.panel-heading a[aria-expanded="true"] {
+  background: #6437BC;
+ 
+  color: #fff;
+}
+
+.panel-default>.panel-heading a[aria-expanded="true"]:after {
+  content: "\2212";
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+  color: #F17B01;
+}
+
+.panel-default>.panel-heading a[aria-expanded="false"]:after {
+  content: "\002b";
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  color: #F17B01;
+}
+.faq{
+  background: #291b3c;
+}
+.panel-collapse {
+  max-width: 1000px;
+  padding: 0 2em;
+  color: #fff;
+}
