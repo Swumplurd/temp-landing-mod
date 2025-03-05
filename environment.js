@@ -1,0 +1,13 @@
+const baseUrl = "https://27wqh0bs8b.execute-api.us-east-1.amazonaws.com/dev/dishPlus";
+//const baseUrl = "http://localhost:5500/";
+const _recommendedPackageId = 8113;
+const _livePlatformsIds = [15, 22];
+const _netflixId = "1204";
+const _entretenimientoMasId=8112;
+const _familarId=8111;
+const _redirectionUrl = "https://micuentastg.mvshub.com.mx/mi-cuenta?source=bGFuZGluZw==&products=";
+const _normalRedirectionUrl = "https://micuentastg.mvshub.com.mx/registro";
+const _netflixPackages =[8110,8112,8113];
+const _beneficiosUrl ="https://d31nz91qboyide.cloudfront.net/mvshub/conexiones/beneficios.json";
+const _canalesUrl = '/js/json/canales.json';
+const _heroUrl = '/js/json/hero.json';
