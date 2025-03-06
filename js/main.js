@@ -4,6 +4,8 @@
   // Dynamic Packages
   document.addEventListener("DOMContentLoaded", async () => {
     //Asegura que no se muestre habilitado el check de la promo de hotgo
+    document.getElementById("bundles-section").classList.remove("d-none");
+
     const promoDiv = document.querySelector(".check-area-hotgo");
     promoDiv.style.height = "0";
     promoDiv.style.visibility = "hidden";
@@ -613,24 +615,21 @@ function selectView(event) {
   }
   event.target.classList.add("active");
 
-  document.getElementById("packs-live").classList.add("d-none");
-  document.getElementById("packs-section").classList.add("d-none");
-  document.getElementById("live-packs-section").classList.add("d-none");
-  document.getElementById("platforms").classList.add("d-none");
-  document.getElementById("packages-live-pack").classList.add("d-none");
+  document.getElementById("bundles-section").classList.add("d-none");
+  document.getElementById("tv-channel-section").classList.add("d-none");
+  document.getElementById("platforms-section").classList.add("d-none");
   switch (event.target.id) {
-    case "platforms-live":
-      document.getElementById("packs-live").classList.remove("d-none");
-      document.getElementById("packages-live-pack").classList.remove("d-none");
+    case "bundles-nav-tab":
+      document.getElementById("bundles-section").classList.remove("d-none");
       break;
-    case "platforms-pack-selector":
-      document.getElementById("packs-section").classList.remove("d-none");
+    case "tv-channel-nav-tab":
+      document.getElementById("tv-channel-section").classList.remove("d-none");
       break;
-    case "live-selector":
-      document.getElementById("live-packs-section").classList.remove("d-none");
+    case "platforms-nav-tab":
+      document.getElementById("platforms-section").classList.remove("d-none");
       break;
     default:
-      document.getElementById("platforms").classList.remove("d-none");
+      document.getElementById("bundles-section").classList.remove("d-none");
   }
   _selectedView = event.target.id;
 }
