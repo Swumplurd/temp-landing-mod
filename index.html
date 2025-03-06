@@ -56,62 +56,11 @@
 
       <a href="index.html" class="px-3">
         <!-- set a 112:24 i.e a 16:9 aspect ratio -->
-        <img fetchpriority="low" src="assets/images/logos/mvs.svg" alt="logo mvshub" width="112" height="24"></a>
-
-
       <div class="d-flex justify-content-center align-items-center gap-3">
-        <a class="text-white d-flex gap-1"
-          style="text-decoration: none;  border: 0; padding: 0; margin: 0;font-size: 16px;font-family:'Roboto'; font-weight: 400;"
-          href="#video-todo">
-          <img src="https://d58ohtx80p2sd.cloudfront.net/Offcanvas2/assets/icon_player.svg" alt="icon player"
-            class="icon_player_menu">
-          <span class="deskBtn-video text-white">conoce</span>
-          <span class="deskBtn-video">mvs<b>hub</b></span>
-          <span class="mobBtn-video">conócelo</span>
-        </a>
-        <p class="separate-nav">|</p>
         <a class="d-md-none text-white link-ingresar m-0" href="https://www.mvshub.com.mx/#spa/login">Iniciar sesión</a>
         <a class="text-decoration-none text-white link-ingresar d-none d-md-block"
           href="https://www.mvshub.com.mx/#spa/login" target="_blank" id="BtnIngTopMenu">Iniciar sesión</a>
-        <button class="navbar-toggler d-none d-md-block" type="button" aria-label="Toggle navigation">
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
       </div>
-
-      <div class="collapse navbar-collapse pb-5" id="navbarNav">
-        <ul class="navbar-nav ml-auto p-4 align-items-md-end text-md-end">
-          <li class="nav-item col-11 col-md-5 col-lg-3 d-block d-md-none">
-            <a class="nav-link scroll-link py-3" href="https://micuenta.mvshub.com.mx/login" target="_blank">Iniciar
-              sesión</a>
-          </li>
-          <li class="nav-item col-11 col-md-5 col-lg-3">
-            <a class="nav-link scroll-link py-3" href="faqs.html" target="_blank">Preguntas frecuentes</a>
-          </li>
-          <li class="nav-item col-11 col-md-5 col-lg-3">
-            <a class="nav-link scroll-link py-3" href="https://micuenta.mvshub.com.mx/terminos-de-uso"
-              target="_blank">Términos de uso</a>
-          </li>
-          <li class="nav-item col-11 col-md-5 col-lg-3">
-            <a class="nav-link scroll-link py-3" href="https://micuenta.mvshub.com.mx/terminos-y-condiciones"
-              target="_blank">Términos y condiciones</a>
-          </li>
-          <li class="nav-item col-11 col-md-5 col-lg-3">
-            <a class="nav-link scroll-link py-3" href="https://micuenta.mvshub.com.mx/aviso-privacidad"
-              target="_blank">Aviso de privacidad</a>
-          </li>
-          <li class="nav-item col-11 col-md-5 col-lg-3">
-            <a class="nav-link scroll-link py-3" href="velotodo.html" target="_blank">Aviso
-              legal</a>
-          </li>
-          <li class="nav-item col-11 col-md-5 col-lg-3">
-            <a class="nav-link scroll-link py-3" href="https://micuenta.mvshub.com.mx/registro"
-              target="_blank">Suscríbete aquí</a>
-          </li>
-        </ul>
-      </div>
-
     </div>
   </nav>
 
@@ -164,7 +113,7 @@
           <div class="col-md-12 m-0 d-flex flex-column justify-content-md-center align-items-center d-md-none">
             <img class="platforms-headerImgMovil" src="assets/moana.png" alt="Plataformas de Streaming" />
             <div id="dynamic-container"
-              style="max-width: 300px; display: flex; flex-direction: column; align-items: center;">
+              style="display: flex; flex-direction: column; align-items: center;">
               <img class="platforms-headerImgMvs" fetchpriority="low" src="assets/mvshub-mob-sombra.png"
                 alt="Plataformas de Streaming">
               <p class="text-white mb-0 py-sm-0 SubTitleNFL">
@@ -173,6 +122,10 @@
               <div class="buttons-banner">
                 <a href="">Regístrate y empieza <br> a ver canales gratis</a>
                 <a href="#packs-content">Explora todas las opciones</a>
+              </div>
+              <div class="col-12 d-flex flex-column channel-free-content" >
+                <p>Regístrate y empieza a ver más de 60 canales sin costo</p>
+                <img src="assets/images/slider/logos.png" alt="logos">
               </div>
             </div>
           </div>
@@ -1660,6 +1613,8 @@
 
     document.getElementById('cart-shop').addEventListener('click', toggleCartBody);
   </script>
+
+
 
   <!-- Utilidades -->
   <script src="js/utils.js"></script>

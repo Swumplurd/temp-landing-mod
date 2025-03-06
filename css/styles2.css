@@ -132,7 +132,7 @@ footer {
 .headTitle {
   /* padding: 4em 0 1em 5em; */
   padding: 0;
-  margin-top: 70px;
+  margin-top: 0;
 }
 
 /* ajuste al logo  */
@@ -396,10 +396,11 @@ footer {
 
 
 .link-ingresar {
-  font-size: 14px;
-  border: 1px solid #A793CC;
-  border-radius: 23px;
+  background: linear-gradient(180deg, rgba(226, 88, 22, 1) 0%, rgba(237, 131, 19, 1) 100%);
   padding: 0.5em 1em;
+  border-radius: 11px;
+  font-size: 11px;
+  text-decoration: none;
 }
 
 .carousel-item1 {
@@ -818,7 +819,7 @@ footer {
 /* Nav menu */
 
 .fixed-topHeader {
-  position: fixed;
+  position: absolute;
   top: 0;
   right: 0;
   left: 0;
@@ -826,10 +827,11 @@ footer {
 }
 
 .navbar {
-  background: #2A1C3C;
+  background: transparent;
   opacity: 90%;
   transition: all .6s;
   backface-visibility: hidden;
+  border: 0;
 }
 
 .navbar-dark .navbar-nav {
@@ -1960,11 +1962,6 @@ footer {
     display: flex;
     justify-content: center;
     /* Centra el checkbox horizontalmente si hay espacio adicional */
-  }
-  .link-ingresar {
-    border: none;
-    padding: 0;
-    text-decoration: none;
   }
 }
 
@@ -3825,7 +3822,6 @@ margin-right: 10px;
 
   .headTitle {
     padding: 0;
-    margin-top: 50px;
   }
 
   #packs {
@@ -5078,6 +5074,7 @@ margin-right: 10px;
   background-image: url(/assets/images/slider/back.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
+  padding-top: 4em;
 }
 
 .banner-container {
@@ -5152,7 +5149,7 @@ margin-right: 10px;
   margin: 0;
   height: fit-content;
   position: absolute;
-  bottom: 4.4em;
+  bottom: 0;
 }
 
 .channel-free-content p {
@@ -5238,5 +5235,11 @@ margin-right: 10px;
   .buttons-banner a {
     width: 241px;
     height: 55px;
+  }
+  .channel-free-content {
+    gap: 0.5em;
+    position: relative;
+    margin:  3em 0 2em;
+    font-size: 12px;
   }
 }
