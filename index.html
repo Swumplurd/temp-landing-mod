@@ -125,7 +125,7 @@
             <div class="d-flex flex-column justify-content-center align-items-center">
               <!-- Aquí inica la comunicación de DZAN -->
               <div class="banner-container">
-                <h1 class="">
+                <h1>
                   Disfruta tus plataformas de streaming y canales de TV con ReplayTV <br> <span class="orangeColorC">en un sólo lugar </span>
                 </h1>
                 <img fetchpriority="low" src="assets/header/logo-mvsnew.svg" alt="mvshub" class="logmvshubDAZN">
@@ -162,22 +162,18 @@
       <div class="carousel-item">
         <section class="first-carousel d-flex justify-content-center">
           <div class="col-md-12 m-0 d-flex flex-column justify-content-md-center align-items-center d-md-none">
-            <img class="platforms-headerImgMovil" src="assets/img_camp_desktop.webp" alt="Plataformas de Streaming" />
+            <img class="platforms-headerImgMovil" src="assets/moana.png" alt="Plataformas de Streaming" />
             <div id="dynamic-container"
               style="max-width: 300px; display: flex; flex-direction: column; align-items: center;">
-              <img class="platforms-headerImgMvs" fetchpriority="low" src="assets/header/mvshub-todo.webp"
+              <img class="platforms-headerImgMvs" fetchpriority="low" src="assets/mvshub-mob-sombra.png"
                 alt="Plataformas de Streaming">
               <p class="text-white mb-0 py-sm-0 SubTitleNFL">
-                TUS PLATAFORMAS DE STREAMING FAVORITAS EN UN MISMO LUGAR
-                <br>
-
+                Disfruta tus plataformas de streaming y canales de TV con ReplayTV <br> <span class="orangeColorC">en un sólo lugar</span>
               </p>
-              <p class="text-white mb-0 py-sm-0 SubTitleNFL mt-1">
-                <span class="orangeColorC ">
-                  Películas, series, deportes, canales de TV con ReplayTV y más
-                </span>
-
-              </p>
+              <div class="buttons-banner">
+                <a href="">Regístrate y empieza <br> a ver canales gratis</a>
+                <a href="#packs-content">Explora todas las opciones</a>
+              </div>
             </div>
           </div>
         </section>
@@ -187,28 +183,9 @@
     <ol id="mobileIndicators" class="carousel-indicators mt-4" style="bottom: -30px;">
     </ol>
   </div>
-  <div class="d-flex justify-content-center d-md-none">
-    <a href="https://micuenta.mvshub.com.mx/registro" target="_blank"
-      style="width: 100%; display: flex; flex-direction: column; align-items: center; text-decoration: none; padding-top: 0rem;">
-      <span class="btn-packs my-3" style="text-decoration: none; text-transform: uppercase;">Regístrate
-        aquí</span>
-    </a>
-  </div>
-  <div class="d-flex justify-content-center d-md-none">
-    <a href="#pills-tab">
-      <div class="arrow arrow-down arrow-packs" style="border-color: #fff;"></div>
-    </a>
-  </div>
+
 
   <div class="row-1 d-flex flex-column pt-5" id="packs-content">
-
-    <div class="scroll-indicator d-flex flex-column align-items-center  d-none d-md-block" id="scrollIndicator">
-      <div class="scroll-text text-white" id="scrollText">
-        <p class="mb-0 f14">Ver más</p>
-      </div>
-      <div class="arrow arrow-down"></div>
-    </div>
-
     <section class="container d-flex flex-column align-items-center mt-md-5">
 
       <div class="d-flex flex-column justify-content-center align-items-center align-items-md-start">
@@ -600,7 +577,7 @@
 
     <!-- FAQS -->
     <section>
-      <div class="container mt-5">
+      <div class="container mt-5 px-5">
         <div class="row text-left">
           <div class="tab-content" id="v-pills-tabContent">
             <div class="tab-pane fade show active mb-5 d-flex justify-content-center" id="v-pills-servicio" role="tabpanel"
@@ -1730,13 +1707,6 @@
   <script src="js/youtubeAPI.js"></script>
   <script src="js/offcanvas.js"></script>
 
-  <script>
-    $(document).ready(function () {
-      $(".control-collapse").click(function () {
-        $(".collapse").collapse('hide');
-      });
-    });
-  </script>
 
   <script>
     $(document).ready(function () {
