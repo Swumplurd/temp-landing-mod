@@ -618,6 +618,8 @@ function selectView(event) {
   document.getElementById("live-packs-section").classList.add("d-none");
   document.getElementById("platforms").classList.add("d-none");
   document.getElementById("packages-live-pack").classList.add("d-none");
+  document.getElementById("disney-bundle-section").classList.add("d-none");
+  console.log(document.getElementById("disney-bundle-section"));
   switch (event.target.id) {
     case "platforms-live":
       document.getElementById("packs-live").classList.remove("d-none");
@@ -628,6 +630,9 @@ function selectView(event) {
       break;
     case "live-selector":
       document.getElementById("live-packs-section").classList.remove("d-none");
+      break;
+    case "disney-selector":
+      document.getElementById("disney-bundle-section").classList.remove("d-none");
       break;
     default:
       document.getElementById("platforms").classList.remove("d-none");
