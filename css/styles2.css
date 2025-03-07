@@ -1049,18 +1049,19 @@ footer {
   padding: 0% 9% 0 9%;
 }
 
-
 .tab-packs {
   font-family: 'Roboto', sans-serif;
   font-size: 0.8em;
   padding: 0.9em 1.5em;
   border-radius: 10px !important;
-  border: 0.18rem solid var(--orange);
-  background: transparent;
   color: white;
   text-decoration: none;
   -webkit-appearance: none;
-  text-align: left;
+  text-align: center;
+  background: transparent linear-gradient(180deg, #7713C6 0%, #3C0A63 100%) 0% 0% no-repeat padding-box;
+  border: 2px solid #AE53F5;
+  min-width: 120px;
+  min-height: 65px;
 }
 
 .tab-packs.active {
