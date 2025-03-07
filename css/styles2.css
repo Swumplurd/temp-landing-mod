@@ -2853,7 +2853,7 @@ small {
 
 .platforms-headerImg {
   width: 70%;
-  margin-top: 10px;
+  margin-top: 60px;
 }
 
 .platforms-headerImgMovil{
@@ -3689,7 +3689,7 @@ margin-right: 10px;
 
 @media only screen and (min-width:1921px) and (max-width:2560px) {
   #default-hero-img {
-    content: url("../assets/img_camp_desktop.webp");
+    content: url("../assets/mohana.png");
   }
 }
 
@@ -3755,7 +3755,7 @@ margin-right: 10px;
   }
 
   #default-hero-img {
-    content: url("../assets/img_camp_desktop.webp");
+    content: url("../assets/mohana.png");
   }
 
   .title-platforms {
@@ -3773,6 +3773,9 @@ margin-right: 10px;
   .frameVideo2 {
     height: 350px;
   }
+  .logmvshubDAZN {
+    width: 350px;
+}
 }
 
 @media screen and (max-width:1197px) {
@@ -3807,17 +3810,14 @@ margin-right: 10px;
 
   .TitleNFL {
     font-size: 2.0em;
-
   }
 
   .SubTitleNFL {
     font-size: 1.0em;
-
   }
 
   .logmvshubDAZN {
-
-    max-width: 200px;
+    max-width: 300px;
   }
 
   .subtxt {
@@ -3836,6 +3836,10 @@ margin-right: 10px;
   .new-back-opacity {
     width: 371px;
     height: 661px;
+  }
+
+  .content-title-banner {
+    width: 400px !important; 
   }
 
 }
@@ -3862,11 +3866,16 @@ margin-right: 10px;
 }
 }
 
+@media screen and (max-width: 991px) {
+  .content-title-banner {
+    width: 500px !important; 
+  }
+}
 
 @media only screen and (min-width:769px) and (max-width:991px) {
 
   #default-hero-img {
-    content: url("../assets/img_camp_desktop.webp");
+    content: url("../assets/mohana.png");
   }
 
   .align-items-md-start {
@@ -3891,7 +3900,7 @@ margin-right: 10px;
   }
 
   #desktopHeroCarousel {
-    background-image: url("../assets/img_camp_desktop.webp");
+    background-image: none;
     background-position: 90% 10px;
     background-repeat: no-repeat;
     background-size: 40%;
@@ -3919,7 +3928,6 @@ margin-right: 10px;
     display: none !important;
   }
 
-
 }
 
 @media screen and (max-width:768px) {
@@ -3934,7 +3942,7 @@ margin-right: 10px;
   }
 
   #default-hero-img {
-    content: url("../assets/img_camp_desktop.webp");
+    content: url("../assets/mohana.png");
   }
 
   .align-items-md-start {
@@ -3959,7 +3967,7 @@ margin-right: 10px;
   }
 
   #desktopHeroCarousel {
-    background-image: url("../assets/img_camp_desktop.webp");
+    background-image: none;
     background-position: 85% 30px;
     background-repeat: no-repeat;
     background-size: 40%;
@@ -3989,7 +3997,7 @@ margin-right: 10px;
 @media screen and (max-width:767px) {
 
   #desktopHeroCarousel {
-    background-image: url("../assets/img_camp_desktop.webp");
+    background-image: none;
     background-position: 110% 10px;
     background-repeat: no-repeat;
     background-size: 55%;
@@ -4431,16 +4439,6 @@ margin-right: 10px;
 
 
 @media screen and (max-width: 767px) {
-
-  #desktopHeroCarousel {
-      background-image: url(../assets/img_camp_desktop.webp);
-      background-position: 85% 30px;
-      background-repeat: no-repeat;
-      background-size: 40%;
-      height: 350px;
-      margin-right: -30px;
-  }
-
   
   #packs {
     width: 100%;
@@ -5070,3 +5068,19 @@ margin-right: 10px;
   font-size: 11px;
 }
 
+.add-disney-title {
+  color: #fff;
+  position: relative;
+  top: -1.2em;
+  font-size: min(max(2vw, 1.2em), 2.18em);
+  font-weight: 600;
+  text-align: end;
+  padding-right: 0.8em;
+  line-height: 1.1;
+}
+
+.content-title-banner {
+  width: 500px; 
+  text-align: center; 
+  padding: 0 20px;
+}
