@@ -57,9 +57,8 @@
       <a href="index.html" class="px-3">
         <!-- set a 112:24 i.e a 16:9 aspect ratio -->
       <div class="d-flex justify-content-center align-items-center gap-3">
-        <a class="d-md-none text-white link-ingresar m-0" href="https://www.mvshub.com.mx/#spa/login">Iniciar sesión</a>
-        <a class="text-decoration-none text-white link-ingresar d-none d-md-block"
-          href="https://www.mvshub.com.mx/#spa/login" target="_blank" id="BtnIngTopMenu">Iniciar sesión</a>
+        <a class="text-decoration-none text-white link-ingresar"
+          href="https://www.mvshub.com.mx/#spa/login" target="_blank" id="BtnIngTopMenu">Inicia sesión</a>
       </div>
     </div>
   </nav>
@@ -69,8 +68,8 @@
     <div class="carousel-inner flex-1">
       <!-- Default slide -->
       <div class="carousel-item d-flex flex-column">
-        <div class="col-md-12 m-0 d-flex d-none d-md-flex flex-wrap bann-back-img" style="height: 100vh;position: relative;">
-          <div class="col-12 col-lg-6 d-flex flex-column item1 item1ab pad-item1 justify-content-md-center headTitle">
+        <div class="col-md-12 m-0 d-flex d-none d-md-flex flex-wrap bann-back-img">
+          <div class="col-12 col-sm-6 d-flex flex-column item1ab pad-item1 justify-content-md-center headTitle">
             <div class="d-flex flex-column justify-content-center align-items-center">
               <!-- Aquí inica la comunicación de DZAN -->
               <div class="banner-container">
@@ -85,16 +84,25 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-6 d-none d-lg-block">
+          <div class="col-sm-6">
             <div class="d-flex header-imgBack flex-column align-items-center h-100" style="margin-top: 70px;">
               <img class="platforms-headerImg" src="assets/images/slider/mohana.png"
                 alt="disney+">
                 <p class="add-disney-title">Ahora puedes contratar paquetes de <br> <span class="orangeColorC">mvshub</span> con <span class="orangeColorC">Disney+</span></p>
             </div>
           </div>
-          <div class="col-12 channel-free-content" >
+          <div class="col-12 d-flex channel-free-content" >
             <p>Regístrate y empieza a ver más de 60 canales sin costo</p>
-            <img src="assets/images/slider/logos.png" alt="logos">
+            <ul>
+              <li><img src="assets/logos/caliente-tv.svg" alt="caliente tv"></li>
+              <li><img src="assets/logos/exatv.svg" alt="exa tv"></li>
+              <li><img src="assets/logos/claro-sports.svg" alt="claro sports"></li>
+              <li><img class="img-h" src="assets/logos/canela-tv.svg" alt="canela tv"></li>
+              <li><img class="img-h" src="assets/logos/cindietv.png" alt="cindie tv"></li>
+              <li><img class="img-h" src="assets/logos/mvstv.svg" alt="mvs tv"></li>
+              <li><img src="assets/logos/imagen.svg" alt="imagen"></li>
+              <li><img src="assets/logos/romance.svg" alt="romance"></li>
+            </ul>
           </div>
         </div>
       </div>
@@ -110,13 +118,13 @@
       <!-- Default slide -->
       <div class="carousel-item">
         <section class="first-carousel d-flex justify-content-center">
-          <div class="col-md-12 m-0 d-flex flex-column justify-content-md-center align-items-center d-md-none">
+          <div class="col-md-12 m-0 d-flex flex-column justify-content-md-center align-items-center d-md-none w-100">
             <img class="platforms-headerImgMovil" src="assets/moana.png" alt="Plataformas de Streaming" />
-            <div id="dynamic-container"
+            <div id="dynamic-container" class="w-100"
               style="display: flex; flex-direction: column; align-items: center;">
               <img class="platforms-headerImgMvs" fetchpriority="low" src="assets/mvshub-mob-sombra.png"
                 alt="Plataformas de Streaming">
-              <p class="text-white mb-0 py-sm-0 SubTitleNFL">
+              <p class="text-white mb-0 py-sm-0 titleBann-mob">
                 Disfruta tus plataformas de streaming y canales de TV con ReplayTV <br> <span class="orangeColorC">en un sólo lugar</span>
               </p>
               <div class="buttons-banner">
@@ -125,7 +133,16 @@
               </div>
               <div class="col-12 d-flex flex-column channel-free-content" >
                 <p>Regístrate y empieza a ver más de 60 canales sin costo</p>
-                <img src="assets/images/slider/logos.png" alt="logos">
+                <ul>
+                  <li><img src="assets/logos/caliente-tv.svg" alt="caliente tv"></li>
+                  <li><img src="assets/logos/exatv.svg" alt="exa tv"></li>
+                  <li><img src="assets/logos/claro-sports.svg" alt="claro sports"></li>
+                  <li><img class="img-h" src="assets/logos/canela-tv.svg" alt="canela tv"></li>
+                  <li><img class="img-h" src="assets/logos/cindietv.png" alt="cindie tv"></li>
+                  <li><img class="img-h" src="assets/logos/mvstv.svg" alt="mvs tv"></li>
+                  <li><img src="assets/logos/imagen.svg" alt="imagen"></li>
+                  <li><img src="assets/logos/romance.svg" alt="romance"></li>
+                </ul>
               </div>
             </div>
           </div>
@@ -466,7 +483,7 @@
     </section>
 
     <!--Grabación-->
-    <section id="recording" class="container d-flex justify-content-center col-12 pt-5"
+    <section id="recording" class="m-0 container d-flex justify-content-center col-12 pt-5"
       style="border-top: 10px solid #492984;">
       <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center p-3 p-md-5">
         <div
@@ -530,8 +547,8 @@
 
     <!-- FAQS -->
     <section>
-      <div class="container mt-5 px-5">
-        <div class="row text-left">
+      <div class="mt-5 px-5">
+        <div class="row text-left px-5">
           <div class="tab-content" id="v-pills-tabContent">
             <div class="tab-pane fade show active mb-5 d-flex justify-content-center" id="v-pills-servicio" role="tabpanel"
               aria-labelledby="v-pills-servicio-tab">
@@ -1401,7 +1418,15 @@
     <div
       class="footer-mov-padd text-center p-2 d-flex flex-column flex-md-row justify-content-between align-items-center px-3"
       style="background-color: black">
-      <div class="m-2 d-none d-lg-block" style="width: 250px;">
+      <div class="m-2 d-flex footer-legal-content">
+        <ul>
+          <li><a href="https://micuenta.mvshub.com.mx/terminos-de-uso?_gl=1*1a1c1w9*_gcl_au*MTQ3NTQwMTIxMi4xNzQxMTE2NjA0" target="_blank">Términos de uso</a></li>
+          <li><a href="https://micuenta.mvshub.com.mx/terminos-y-condiciones?_gl=1*1a1c1w9*_gcl_au*MTQ3NTQwMTIxMi4xNzQxMTE2NjA0" target="_blank">Términos y condiciones</a></li>
+        </ul>
+        <ul>
+          <li><a href="https://micuenta.mvshub.com.mx/aviso-privacidad?_gl=1*1a1c1w9*_gcl_au*MTQ3NTQwMTIxMi4xNzQxMTE2NjA0" target="_blank">Aviso de privacidad</a></li>
+          <li><a href="velotodo.html" target="_blank">Aviso legal</a></li>
+        </ul>
       </div>
       <div>
         <a class="text-white text-decoration-none copyright" href="#">

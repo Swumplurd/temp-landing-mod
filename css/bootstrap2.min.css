@@ -250,6 +250,11 @@ iframe {
   margin-left: 8.33333333%;
 }
 @media (min-width: 576px) {
+  .col-sm-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+
   .col-sm-8 {
     flex: 0 0 auto;
     width: 66.66666667%;
