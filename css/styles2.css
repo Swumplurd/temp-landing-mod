@@ -1172,7 +1172,6 @@ footer {
 }
 
 .carousel-indicators-override {
-
   width: 10px !important;
   height: 10px !important;
   border-radius: 100%;
@@ -2857,13 +2856,13 @@ small {
 }
 
 .platforms-headerImgMovil{
-  width: 75%;
-  margin-top: 50px;
+  width: 65%;
+  margin-top: 30px;
 }
 
 .platforms-headerImgMvs{
   width: 75%;
-  margin-top: 10px;
+  margin-top: 0px;
 }
 
 .platforms-headerTextMvs{
@@ -4776,7 +4775,10 @@ margin-right: 10px;
   }
   .videoDiv2 {
     top: -3em;
-}
+  }
+  .mob-padd-logo {
+    padding: 0 !important;
+  }
 
 }
 
@@ -5064,4 +5066,14 @@ margin-right: 10px;
   width: fit-content; 
   text-align: center; 
   padding: 0 20px;
+}
+
+.back-bann {
+  background-image: url(/assets/images/slider/back.jpg);
+  background-size: cover;
+}
+
+#mobileHeroCarousel {
+  background-image: url(/assets/images/slider/mobile/cuadritos.png);
+  background-repeat: no-repeat;
 }
