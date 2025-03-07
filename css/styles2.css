@@ -162,8 +162,8 @@ footer {
 }
 
 .SubTitleNFL {
-  font-size: 1.263em;
-
+  font-size: 1.35em;
+  text-transform: uppercase;
 }
 
 .SubTitleNFLMT {
@@ -3838,10 +3838,6 @@ margin-right: 10px;
     height: 661px;
   }
 
-  .content-title-banner {
-    width: 400px !important; 
-  }
-
 }
 
 @media screen and (max-width: 912px) {
@@ -3864,12 +3860,6 @@ margin-right: 10px;
   .frameVideo2 {
     height: 280px;
 }
-}
-
-@media screen and (max-width: 991px) {
-  .content-title-banner {
-    width: 500px !important; 
-  }
 }
 
 @media only screen and (min-width:769px) and (max-width:991px) {
@@ -3911,17 +3901,12 @@ margin-right: 10px;
 
   .SubTitleNFL {
     font-size: 1.0em;
-    padding: 10px 80px;
     text-align: center;
   }
 
   .item1 {
     width: 100%;
     align-items: flex-start;
-  }
-
-  .SubTitleNFL {
-    font-size: 1.0em;
   }
 
   .banner-discount {
@@ -3983,7 +3968,6 @@ margin-right: 10px;
 
   .SubTitleNFL {
     font-size: 1.0em;
-    padding: 10px 80px;
     text-align: center;
   }
 
@@ -4427,13 +4411,7 @@ margin-right: 10px;
   }
 }
 
-@media screen and (min-width: 767px) and (max-width: 807px) {
-  .SubTitleNFL {
-    font-size: 1.0em;
-    padding: 10px 85px;
-    text-align: center;
-  }
-}
+
 
 
 
@@ -4820,6 +4798,9 @@ margin-right: 10px;
   .videoSia {
     padding: 0 0.5em;
   }
+  .SubTitleNFL {
+    font-size: 0.85em;
+  }
 
 }
 
@@ -5080,7 +5061,7 @@ margin-right: 10px;
 }
 
 .content-title-banner {
-  width: 500px; 
+  width: fit-content; 
   text-align: center; 
   padding: 0 20px;
 }
